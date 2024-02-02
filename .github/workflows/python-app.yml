@@ -34,4 +34,5 @@ jobs:
         python3.10 -m robot  ./shangai/amine.robot 
     - name: Test with pytest
       run: |
+        pip install pytest
         pytest
