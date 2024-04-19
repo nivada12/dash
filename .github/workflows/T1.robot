@@ -8,7 +8,7 @@ ${browser}  chrome
 LoginTest
     [tags]  Smoke
        
-        open browser        ${url}      ${browser}
+        open browser         ${url}      ${browser}
         Maximize Browser Window  
         LoginToApp
         close browser
